@@ -1,0 +1,10 @@
+1.
+Q-learning merupakan salah satu algoritma reinforcement learning yakni mesin mempelajari sebuah lingkungan yang telah terlebih dahulu diberikan peraturannya.
+Q-memiliki beberapa variabel yang dapat di tuning.
+Tiap episode, mesin bermain sesuai aturan dengan tiap langkahnya memiliki pilihan untuk mengeksplor atau mengeksploit lingkungan berdasarkan q-table yang telah dihitungnya hingga saat ini.
+Pemilihan eksplor/eksploit ini berdasarkan sudah berapa episode berjalan, semakin banyak ep semakin mungkin eksploit.
+Tiap akhir langkah q-table diupdate dengan sebuah formula yang bila learning rate bernilai 1, q-table akan sepenuhnya mempercayai hitungan baru.
+
+2.
+Kelemahan dari q-learning ialah q-table yang tidak dinormalisasi sehingga akan menghasilkan hasil perhitungan yang sangat besar bila tuning variabel tidak sesuai.
+Q-learning juga membutuhkan episode yang cukup banyak, ditambah ukuran q-table yang berupa state x actions, tentunya memiliki batasan-batasan tertentu.
